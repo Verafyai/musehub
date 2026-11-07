@@ -37,6 +37,7 @@ from musehub.api.routes.musehub import (
     ui_user_profile as musehub_ui_profile_routes,
     ui_mcp_elicitation as musehub_ui_mcp_elicitation_routes,
     ui_new_repo as musehub_ui_new_repo_routes,
+    ui_scan as musehub_ui_scan_routes,
     ui_domains as musehub_ui_domains_routes,
     domains as musehub_domains_routes,
     discover as musehub_discover_routes,
@@ -247,6 +248,7 @@ app.include_router(musehub_ui_topics_routes.router, tags=["musehub-ui"])
 app.include_router(musehub_ui_mcp_elicitation_routes.router, tags=["musehub-ui-mcp"])
 app.include_router(musehub_ui_new_repo_routes.router, tags=["musehub-ui"])
 app.include_router(musehub_ui_domains_routes.router, tags=["musehub-ui-domains"])
+app.include_router(musehub_ui_scan_routes.router, tags=["musehub-ui-scan"])
 app.include_router(musehub_ui_routes.fixed_router, tags=["musehub-ui"])
 app.include_router(musehub_ui_milestones_routes.router, tags=["musehub-ui"])
 app.include_router(musehub_ui_stash_routes.router, tags=["musehub-ui-stash"])
