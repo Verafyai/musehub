@@ -158,7 +158,7 @@ app = FastAPI(
     # In production (DEBUG=false, MUSE_ENV != "test") it is disabled — agents use /mcp instead.
     openapi_url="/api/v1/openapi.json" if (settings.debug or settings.muse_env == "test") else None,
     description=(
-        "**MuseHub** — the version control hub for multidimensional state, powered by Muse.\n\n"
+        "**MuseHub**: faster version control for agents, powered by Muse.\n\n"
         "Muse is a domain-agnostic version control system. Not just Git — any state space "
         "where a 'change' is a delta across multiple axes simultaneously. "
         "MIDI (21 dimensions), code (symbol graph), genomics, climate simulation, 3D design.\n\n"
