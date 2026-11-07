@@ -44,7 +44,7 @@ The homepage headline changes to "Faster version control for agents", and the su
 | Share image (1200×675) | ![](6-share-image.png) |
 | Mobile | ![](7-mobile-homepage.png) |
 
-The screenshots come from a local run, so the short URL shows `127.0.0.1:10055`. In production it is `musehub.ai/s/…`.
+The screenshots come from a local run of this branch with real scan data. `muse-free-scan.gif` is the whole flow as a 16:9 animation for X.
 
 ## How it works
 

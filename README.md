@@ -23,7 +23,7 @@ MuseHub is the hub for Muse repos. It lets you:
 
 The homepage has a free scan: paste any public GitHub repo, and MuseHub replays its last 20 merged pull requests. For every function they changed, it counts the tokens needed to find its callers two levels deep, both ways: with search and file reads, and with one Muse impact query.
 
-![The free scan on the MuseHub homepage](docs/scan/1-homepage-idle.png)
+![The free scan, end to end](docs/scan/muse-free-scan.gif)
 
 Every result gets:
 
